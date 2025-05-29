@@ -10,7 +10,9 @@ import SwiftUI
 struct BaseTextView: View {
     
     let text: String
-    let color: Color
+    @State var color: Color
+    
+    let colors: [Color] = [.red, .green, .blue, .yellow, .purple, .pink, .orange, .cyan]
     
     var body: some View {
         Text(text) 
@@ -20,6 +22,12 @@ struct BaseTextView: View {
             .background(color.opacity(0.4))
             .cornerRadius(20)
             .shadow(color: color, radius: 5, x: 10, y: 10)
+            .onTapGesture {
+                //Randomly change the background color
+                withAnimation {
+                    color = colors.randomElement() ?? .red
+                }
+            }
     }
 }
 
