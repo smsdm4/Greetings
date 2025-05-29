@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-
-
 struct ContentView: View {
     
     let messages: [DataItemModel] = [
@@ -20,9 +18,9 @@ struct ContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
             
-            BaseTextView(text: messages[0].text, color: messages[0].color)
-            BaseTextView(text: messages[1].text, color: messages[1].color)
-            BaseTextView(text: messages[2].text, color: messages[2].color)
+            ForEach(messages) { message in
+                BaseTextView(text: message.text, color: message.color)
+            }
             
         } //VStack
         .padding()
