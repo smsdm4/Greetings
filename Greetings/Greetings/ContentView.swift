@@ -15,7 +15,7 @@ struct ContentView: View {
             
             VStack(alignment: .leading) {
                 
-                BaseTitleView(titleText: "Greetings!", headerText: "Exploring SwiftUI Programming")
+                BaseTitleView(titleText: "Greetings!", headerText: "Exploring SwiftUI with Mojtaba")
                 
                 Spacer()
                 
@@ -26,6 +26,7 @@ struct ContentView: View {
                 
             } //VStack
             .padding()
+            
         } //ZStack
     }
 }
