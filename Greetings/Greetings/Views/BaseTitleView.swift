@@ -23,7 +23,7 @@ struct BaseTitleView: View {
     }
     
     var angularGradient: AngularGradient {
-        .init(colors: [.pink, .purple, .blue, .orange, .yellow], center: .center, angle: .zero)
+        .init(colors: [.customPink, .customPurple, .customBlue, .customOrange, .customYellow], center: .center, angle: .zero)
     }
     
     // MARK: - Body
@@ -57,7 +57,7 @@ struct BaseTitleView: View {
 
 #Preview {
     VStack {
-        BaseTitleView(titleText: "Greetings!", headerText: "Exploring SwiftUI...!")
+        BaseTitleView(titleText: "Greetings!", headerText: "Exploring SwiftUI With Mojtaba!")
         Spacer()
     }
     .padding()

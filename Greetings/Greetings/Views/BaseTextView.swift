@@ -12,20 +12,20 @@ struct BaseTextView: View {
     let text: String
     @State var color: Color
     
-    let colors: [Color] = [.red, .green, .blue, .yellow, .purple, .pink, .orange, .cyan]
+    let colors: [Color] = [.customRed, .customGreen, .customBlue, .customYellow, .customPurple, .customPink, .customOrange, .customCyan]
     
     var body: some View {
         Text(text) 
             .fontWeight(.semibold)
             .padding()
-            .foregroundStyle(Color.white)
+            .foregroundStyle(.customWhite)
             .background(color.opacity(0.4))
             .cornerRadius(20)
             .shadow(color: color, radius: 5, x: 10, y: 10)
             .onTapGesture {
                 //Randomly change the background color
                 withAnimation {
-                    color = colors.randomElement() ?? .red
+                    color = colors.randomElement() ?? .customRed
                 }
             }
     }
