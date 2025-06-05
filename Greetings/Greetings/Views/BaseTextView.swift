@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BaseTextView: View {
     
-    let text: String
+    let text: LocalizedStringKey
     @State var color: Color
     
     let colors: [Color] = [.customRed, .customGreen, .customBlue, .customYellow, .customPurple, .customPink, .customOrange, .customCyan]

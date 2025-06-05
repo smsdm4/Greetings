@@ -10,8 +10,8 @@ import SwiftUI
 struct BaseTitleView: View {
     
     // MARK: - Properties
-    let titleText: String
-    let headerText: String
+    let titleText: LocalizedStringKey
+    let headerText: LocalizedStringKey
     
     let lineWidth = 15.0
     let diameter = 70.0

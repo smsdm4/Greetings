@@ -1,0 +1,102 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Exploring iOS Programming...!" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استكشاف برمجة iOS...!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Explorando la programación iOS...!"
+          }
+        }
+      }
+    },
+    "Exploring SwiftUI with Mojtaba" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استكشاف SwiftUI مع مجتبی"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explorando SwiftUI con Mojtaba"
+          }
+        }
+      }
+    },
+    "Greetings!" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحيات!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Saludos!"
+          }
+        }
+      }
+    },
+    "Hello There!" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أهلاً بك!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Hola!"
+          }
+        }
+      }
+    },
+    "My name is Mojtaba Mirzadeh!" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسمي مجتبى ميرزاده!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Mi nombre es Mojtaba Mirzadeh!"
+          }
+        }
+      }
+    },
+    "With...!" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مع...!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con...!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

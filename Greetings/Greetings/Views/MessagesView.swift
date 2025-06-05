@@ -13,7 +13,7 @@ struct MessagesView: View {
         .init(text: "Greetings!", color: .customPurple),
         .init(text: "Hello There!", color: .customGreen),
         .init(text: "Exploring iOS Programming...!", color: .customYellow),
-        .init(text: "Darlings!", color: .customRed),
+        .init(text: "With...!", color: .customRed),
         .init(text: "My name is Mojtaba Mirzadeh!", color: .customGray)
     ]
     
