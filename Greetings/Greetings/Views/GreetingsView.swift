@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GreetingsView: View {
     var body: some View {
         ZStack {
             
@@ -15,7 +15,7 @@ struct ContentView: View {
             
             VStack(alignment: .leading) {
                 
-                BaseTitleView(titleText: "Greetings!", headerText: "Exploring SwiftUI with Mojtaba")
+                BaseGreetingsTitleView()
                 
                 Spacer()
                 
@@ -32,5 +32,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    GreetingsView()
 }
