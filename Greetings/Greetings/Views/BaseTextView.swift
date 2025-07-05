@@ -9,13 +9,27 @@ import SwiftUI
 
 struct BaseTextView: View {
     
+    // MARK: - Properties
     let text: LocalizedStringKey
     @State var color: Color
     
     let colors: [Color] = [.customRed, .customGreen, .customBlue, .customYellow, .customPurple, .customPink, .customOrange, .customCyan]
     
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @Environment(\.verticalSizeClass) var verticalSizeClass
+    
+    var isIpad: Bool {
+        horizontalSizeClass == .regular && verticalSizeClass == .regular
+    }
+    
+    var font: Font {
+        isIpad ? .largeTitle : .body
+    }
+    
+    // MARK: - Views
     var body: some View {
-        Text(text) 
+        Text(text)
+            .font(font)
             .fontWeight(.semibold)
             .padding()
             .foregroundStyle(.customWhite)
