@@ -1,6 +1,50 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "Arabic" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عربي"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "árabe"
+          }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عربی"
+          }
+        }
+      }
+    },
+    "English" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إنجليزي"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inglesa"
+          }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انگلیسی"
+          }
+        }
+      }
+    },
     "Exploring iOS Programming...!" : {
       "localizations" : {
         "ar" : {
@@ -14,11 +58,17 @@
             "state" : "translated",
             "value" : "¡Explorando la programación iOS...!"
           }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بررسی برنامه نویسی iOS ...!"
+          }
         }
       }
     },
     "Exploring SwiftUI with Mojtaba" : {
-      "extractionState" : "stale",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -31,11 +81,59 @@
             "state" : "translated",
             "value" : "Explorando SwiftUI con Mojtaba"
           }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بررسی برنامه نویسی iOS ..."
+          }
         }
       }
     },
     "Exploring SwiftUI With Mojtaba!" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استكشاف SwiftUI مع مجتبی!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explorando SwiftUI con Mojtaba!"
+          }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بررسی SwiftUI با مجتبی!"
+          }
+        }
+      }
+    },
+    "Farsi" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الفارسية"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farsi"
+          }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فارسی"
+          }
+        }
+      }
     },
     "Greetings!" : {
       "localizations" : {
@@ -49,6 +147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¡Saludos!"
+          }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "درود!"
           }
         }
       }
@@ -66,6 +170,12 @@
             "state" : "translated",
             "value" : "¡Hola!"
           }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "درووووووود!"
+          }
         }
       }
     },
@@ -82,6 +192,34 @@
             "state" : "translated",
             "value" : "¡Mi nombre es Mojtaba Mirzadeh!"
           }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم من مجتبی میرزاده است!"
+          }
+        }
+      }
+    },
+    "Spanish" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الأسبانية"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Española"
+          }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسپانیایی"
+          }
         }
       }
     },
@@ -97,6 +235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con...!"
+          }
+        },
+        "fa-IR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "با ...!"
           }
         }
       }
