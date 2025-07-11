@@ -10,8 +10,10 @@ import TipKit
 
 struct GreetingsTip: Tip {
     var title: Text {
-        Text("Click on me to show a tip!")
+        Text("Click on circle and disc")
     }
     
-    
+    var message: Text? {
+        Text("Observe a nice animation with Mojtaba...!")
+    }
 }

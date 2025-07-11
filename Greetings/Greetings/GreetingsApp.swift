@@ -19,6 +19,8 @@ struct GreetingsApp: App {
         layoutDirectionString == LEFT_TO_RIGHT ? .leftToRight : .rightToLeft
     }
     
+    let resetTip = true //To debug
+    
     var body: some Scene {
         WindowGroup {
             GreetingsMainView(language: $language, layoutDirectionString: $layoutDirectionString)
@@ -26,6 +28,10 @@ struct GreetingsApp: App {
                 .environment(\.layoutDirection, layoutDirection)
             //TipKit Configuration
                 .task {
+                    if resetTip {
+                        try? Tips.resetDatastore()
+                    }
+                    
                     try? Tips.configure([
                         .displayFrequency(.immediate),
                         .datastoreLocation(.applicationDefault)
