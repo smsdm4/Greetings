@@ -15,25 +15,29 @@ struct LanguageOptionsView: View {
     
     // MARK: - Views
     var body: some View {
-        Image(systemName: "gearshape.fill")
-            .contextMenu {
-                Button("English") {
-                    language = "en"
-                    layoutDirectionString = LEFT_TO_RIGHT
-                }
-                Button("Farsi") {
-                    language = "fa"
-                    layoutDirectionString = RIGHT_TO_LEFT
-                }
-                Button("Arabic") {
-                    language = "ar"
-                    layoutDirectionString = RIGHT_TO_LEFT
-                }
-                Button("Spanish") {
-                    language = "es"
-                    layoutDirectionString = LEFT_TO_RIGHT
-                }
+        
+        Menu {
+            Button("English") {
+                language = "en"
+                layoutDirectionString = LEFT_TO_RIGHT
             }
+            Button("Farsi") {
+                language = "fa"
+                layoutDirectionString = RIGHT_TO_LEFT
+            }
+            Button("Arabic") {
+                language = "ar"
+                layoutDirectionString = RIGHT_TO_LEFT
+            }
+            Button("Spanish") {
+                language = "es"
+                layoutDirectionString = LEFT_TO_RIGHT
+            }
+        } label: {
+            Image(systemName: "gearshape.fill")
+                .foregroundStyle(.black)
+        }
+        
     }
 }
 
